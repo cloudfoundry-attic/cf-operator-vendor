@@ -275,7 +275,7 @@ gopkg.in/inf.v0
 gopkg.in/tomb.v1
 # gopkg.in/yaml.v2 v2.2.1
 gopkg.in/yaml.v2
-# k8s.io/api v0.0.0-20181213150558-05914d821849
+# k8s.io/api v0.0.0-20190222213804-5cb15d344471
 k8s.io/api/apps/v1beta1
 k8s.io/api/batch/v1
 k8s.io/api/core/v1
@@ -309,7 +309,7 @@ k8s.io/api/scheduling/v1beta1
 k8s.io/api/settings/v1alpha1
 k8s.io/api/storage/v1alpha1
 k8s.io/api/storage/v1beta1
-# k8s.io/apimachinery v0.0.0-20181127025237-2b1284ed4c93
+# k8s.io/apimachinery v0.0.0-20190221213512-86fb29eff628
 k8s.io/apimachinery/pkg/api/errors
 k8s.io/apimachinery/pkg/apis/meta/v1
 k8s.io/apimachinery/pkg/fields
@@ -353,7 +353,7 @@ k8s.io/apimachinery/pkg/util/yaml
 k8s.io/apimachinery/pkg/util/mergepatch
 k8s.io/apimachinery/third_party/forked/golang/json
 k8s.io/apimachinery/pkg/apis/meta/internalversion
-# k8s.io/client-go v2.0.0-alpha.0.0.20181213151034-8d9ed539ba31+incompatible
+# k8s.io/client-go v2.0.0-alpha.0.0.20190507014756-65905f29c17c+incompatible
 k8s.io/client-go/plugin/pkg/client/auth/oidc
 k8s.io/client-go/kubernetes
 k8s.io/client-go/rest
@@ -426,8 +426,6 @@ k8s.io/client-go/tools/clientcmd/api/v1
 k8s.io/klog
 # k8s.io/kube-openapi v0.0.0-20181024003938-96e8bb74ecdd
 k8s.io/kube-openapi/pkg/util/proto
-# k8s.io/kubernetes v1.13.1
-k8s.io/kubernetes/pkg/api/v1/pod
 # sigs.k8s.io/controller-runtime v0.1.10
 sigs.k8s.io/controller-runtime/pkg/manager
 sigs.k8s.io/controller-runtime/pkg/runtime/signals
