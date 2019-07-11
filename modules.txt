@@ -202,7 +202,7 @@ github.com/spf13/jwalterweatherman
 github.com/spf13/pflag
 # github.com/spf13/viper v1.2.1
 github.com/spf13/viper
-# github.com/viovanov/bosh-template-go v0.0.0-20190531194715-753a0fd8d6cb
+# github.com/viovanov/bosh-template-go v0.0.0-20190711164142-409a5c63db67
 github.com/viovanov/bosh-template-go
 # go.uber.org/atomic v1.3.2
 go.uber.org/atomic
