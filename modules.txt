@@ -1,8 +1,6 @@
 # github.com/GeertJohan/go.rice v1.0.0
 github.com/GeertJohan/go.rice
 github.com/GeertJohan/go.rice/embedded
-# github.com/appscode/jsonpatch v0.0.0-20190108182946-7c0e3b262f30
-github.com/appscode/jsonpatch
 # github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
 github.com/beorn7/perks/quantile
 # github.com/bmatcuk/doublestar v1.1.1
@@ -46,7 +44,7 @@ github.com/daaku/go.zipexe
 github.com/davecgh/go-spew/spew
 # github.com/dchest/uniuri v0.0.0-20160212164326-8902c56451e9
 github.com/dchest/uniuri
-# github.com/evanphx/json-patch v4.0.0+incompatible
+# github.com/evanphx/json-patch v4.5.0+incompatible
 github.com/evanphx/json-patch
 # github.com/fsnotify/fsnotify v1.4.7
 github.com/fsnotify/fsnotify
@@ -71,8 +69,6 @@ github.com/golang/protobuf/ptypes/timestamp
 github.com/gonvenience/bunt
 # github.com/gonvenience/term v1.0.0
 github.com/gonvenience/term
-# github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c
-github.com/google/btree
 # github.com/google/certificate-transparency-go v1.0.21
 github.com/google/certificate-transparency-go
 github.com/google/certificate-transparency-go/tls
@@ -90,9 +86,6 @@ github.com/google/uuid
 github.com/googleapis/gnostic/OpenAPIv2
 github.com/googleapis/gnostic/compiler
 github.com/googleapis/gnostic/extensions
-# github.com/gregjones/httpcache v0.0.0-20180305231024-9cad4c3443a7
-github.com/gregjones/httpcache
-github.com/gregjones/httpcache/diskcache
 # github.com/hashicorp/golang-lru v0.5.0
 github.com/hashicorp/golang-lru
 github.com/hashicorp/golang-lru/simplelru
@@ -177,8 +170,6 @@ github.com/onsi/gomega/matchers/support/goraph/util
 github.com/pborman/uuid
 # github.com/pelletier/go-toml v1.2.0
 github.com/pelletier/go-toml
-# github.com/peterbourgon/diskv v2.0.1+incompatible
-github.com/peterbourgon/diskv
 # github.com/pkg/errors v0.8.1
 github.com/pkg/errors
 # github.com/prometheus/client_golang v0.9.2
@@ -198,7 +189,7 @@ github.com/prometheus/procfs/xfs
 github.com/prometheus/procfs/internal/util
 # github.com/russross/blackfriday v1.5.2
 github.com/russross/blackfriday
-# github.com/spf13/afero v1.1.2
+# github.com/spf13/afero v1.2.2
 github.com/spf13/afero
 github.com/spf13/afero/mem
 # github.com/spf13/cast v1.3.0
@@ -212,7 +203,7 @@ github.com/spf13/jwalterweatherman
 github.com/spf13/pflag
 # github.com/spf13/viper v1.2.1
 github.com/spf13/viper
-# github.com/viovanov/bosh-template-go v0.0.0-20190728084045-8dc619f31ddc
+# github.com/viovanov/bosh-template-go v0.0.0-20190711164142-409a5c63db67
 github.com/viovanov/bosh-template-go
 # go.uber.org/atomic v1.3.2
 go.uber.org/atomic
@@ -278,6 +269,8 @@ golang.org/x/text/runes
 golang.org/x/text/internal/tag
 # golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2
 golang.org/x/time/rate
+# gomodules.xyz/jsonpatch/v2 v2.0.0
+gomodules.xyz/jsonpatch/v2
 # google.golang.org/appengine v1.2.0
 google.golang.org/appengine/urlfetch
 google.golang.org/appengine/internal
@@ -294,7 +287,7 @@ gopkg.in/inf.v0
 gopkg.in/tomb.v1
 # gopkg.in/yaml.v2 v2.2.2
 gopkg.in/yaml.v2
-# k8s.io/api v0.0.0-20190222213804-5cb15d344471
+# k8s.io/api v0.0.0-20190409021203-6e4e0e4f393b
 k8s.io/api/apps/v1beta1
 k8s.io/api/batch/v1
 k8s.io/api/core/v1
@@ -305,7 +298,6 @@ k8s.io/api/storage/v1
 k8s.io/api/authentication/v1
 k8s.io/api/autoscaling/v1
 k8s.io/api/policy/v1beta1
-k8s.io/api/admissionregistration/v1alpha1
 k8s.io/api/apps/v1
 k8s.io/api/auditregistration/v1alpha1
 k8s.io/api/authentication/v1beta1
@@ -316,19 +308,24 @@ k8s.io/api/autoscaling/v2beta2
 k8s.io/api/batch/v1beta1
 k8s.io/api/batch/v2alpha1
 k8s.io/api/certificates/v1beta1
+k8s.io/api/coordination/v1
 k8s.io/api/coordination/v1beta1
 k8s.io/api/events/v1beta1
 k8s.io/api/extensions/v1beta1
 k8s.io/api/networking/v1
+k8s.io/api/networking/v1beta1
+k8s.io/api/node/v1alpha1
+k8s.io/api/node/v1beta1
 k8s.io/api/rbac/v1
 k8s.io/api/rbac/v1alpha1
 k8s.io/api/rbac/v1beta1
+k8s.io/api/scheduling/v1
 k8s.io/api/scheduling/v1alpha1
 k8s.io/api/scheduling/v1beta1
 k8s.io/api/settings/v1alpha1
 k8s.io/api/storage/v1alpha1
 k8s.io/api/storage/v1beta1
-# k8s.io/apimachinery v0.0.0-20190221213512-86fb29eff628
+# k8s.io/apimachinery v0.0.0-20190404173353-6a84e37a896d
 k8s.io/apimachinery/pkg/api/errors
 k8s.io/apimachinery/pkg/apis/meta/v1
 k8s.io/apimachinery/pkg/fields
@@ -352,8 +349,8 @@ k8s.io/apimachinery/pkg/util/sets
 k8s.io/apimachinery/pkg/util/validation
 k8s.io/apimachinery/pkg/runtime/serializer/streaming
 k8s.io/apimachinery/pkg/util/errors
-k8s.io/apimachinery/pkg/conversion/queryparams
 k8s.io/apimachinery/pkg/util/json
+k8s.io/apimachinery/pkg/conversion/queryparams
 k8s.io/apimachinery/pkg/util/naming
 k8s.io/apimachinery/pkg/version
 k8s.io/apimachinery/pkg/util/clock
@@ -372,9 +369,9 @@ k8s.io/apimachinery/pkg/util/yaml
 k8s.io/apimachinery/pkg/util/mergepatch
 k8s.io/apimachinery/third_party/forked/golang/json
 k8s.io/apimachinery/pkg/apis/meta/internalversion
-# k8s.io/client-go v2.0.0-alpha.0.0.20190507014756-65905f29c17c+incompatible
-k8s.io/client-go/kubernetes
+# k8s.io/client-go v11.0.1-0.20190409021438-1a26190bd76a+incompatible
 k8s.io/client-go/plugin/pkg/client/auth/oidc
+k8s.io/client-go/kubernetes
 k8s.io/client-go/rest
 k8s.io/client-go/tools/clientcmd
 k8s.io/client-go/discovery
@@ -386,7 +383,9 @@ k8s.io/client-go/tools/clientcmd/api
 k8s.io/client-go/kubernetes/typed/core/v1
 k8s.io/client-go/kubernetes/typed/apps/v1beta2
 k8s.io/client-go/tools/record
-k8s.io/client-go/kubernetes/typed/admissionregistration/v1alpha1
+k8s.io/client-go/kubernetes/scheme
+k8s.io/client-go/tools/leaderelection
+k8s.io/client-go/tools/leaderelection/resourcelock
 k8s.io/client-go/kubernetes/typed/admissionregistration/v1beta1
 k8s.io/client-go/kubernetes/typed/apps/v1
 k8s.io/client-go/kubernetes/typed/apps/v1beta1
@@ -402,23 +401,25 @@ k8s.io/client-go/kubernetes/typed/batch/v1
 k8s.io/client-go/kubernetes/typed/batch/v1beta1
 k8s.io/client-go/kubernetes/typed/batch/v2alpha1
 k8s.io/client-go/kubernetes/typed/certificates/v1beta1
+k8s.io/client-go/kubernetes/typed/coordination/v1
 k8s.io/client-go/kubernetes/typed/coordination/v1beta1
 k8s.io/client-go/kubernetes/typed/events/v1beta1
 k8s.io/client-go/kubernetes/typed/extensions/v1beta1
 k8s.io/client-go/kubernetes/typed/networking/v1
+k8s.io/client-go/kubernetes/typed/networking/v1beta1
+k8s.io/client-go/kubernetes/typed/node/v1alpha1
+k8s.io/client-go/kubernetes/typed/node/v1beta1
 k8s.io/client-go/kubernetes/typed/policy/v1beta1
 k8s.io/client-go/kubernetes/typed/rbac/v1
 k8s.io/client-go/kubernetes/typed/rbac/v1alpha1
 k8s.io/client-go/kubernetes/typed/rbac/v1beta1
+k8s.io/client-go/kubernetes/typed/scheduling/v1
 k8s.io/client-go/kubernetes/typed/scheduling/v1alpha1
 k8s.io/client-go/kubernetes/typed/scheduling/v1beta1
 k8s.io/client-go/kubernetes/typed/settings/v1alpha1
 k8s.io/client-go/kubernetes/typed/storage/v1
 k8s.io/client-go/kubernetes/typed/storage/v1alpha1
 k8s.io/client-go/kubernetes/typed/storage/v1beta1
-k8s.io/client-go/kubernetes/scheme
-k8s.io/client-go/tools/leaderelection
-k8s.io/client-go/tools/leaderelection/resourcelock
 k8s.io/client-go/pkg/version
 k8s.io/client-go/plugin/pkg/client/auth/exec
 k8s.io/client-go/rest/watch
@@ -429,29 +430,31 @@ k8s.io/client-go/tools/auth
 k8s.io/client-go/tools/clientcmd/api/latest
 k8s.io/client-go/util/homedir
 k8s.io/client-go/dynamic
-k8s.io/client-go/util/integer
 k8s.io/client-go/tools/pager
-k8s.io/client-go/util/buffer
 k8s.io/client-go/util/retry
 k8s.io/client-go/util/workqueue
 k8s.io/client-go/tools/reference
+k8s.io/client-go/tools/record/util
 k8s.io/client-go/restmapper
 k8s.io/client-go/pkg/apis/clientauthentication
 k8s.io/client-go/pkg/apis/clientauthentication/v1alpha1
 k8s.io/client-go/pkg/apis/clientauthentication/v1beta1
 k8s.io/client-go/util/connrotation
+k8s.io/client-go/util/keyutil
 k8s.io/client-go/tools/clientcmd/api/v1
-# k8s.io/klog v0.1.0
+# k8s.io/klog v0.3.0
 k8s.io/klog
 # k8s.io/kube-openapi v0.0.0-20181024003938-96e8bb74ecdd
 k8s.io/kube-openapi/pkg/util/proto
-# sigs.k8s.io/controller-runtime v0.1.10
+# k8s.io/utils v0.0.0-20190506122338-8fab8cb257d5
+k8s.io/utils/integer
+k8s.io/utils/buffer
+k8s.io/utils/trace
+# sigs.k8s.io/controller-runtime v0.2.0-beta.4
 sigs.k8s.io/controller-runtime/pkg/manager
 sigs.k8s.io/controller-runtime/pkg/runtime/log
 sigs.k8s.io/controller-runtime/pkg/runtime/signals
 sigs.k8s.io/controller-runtime/pkg/client
-sigs.k8s.io/controller-runtime/pkg/webhook
-sigs.k8s.io/controller-runtime/pkg/webhook/admission
 sigs.k8s.io/controller-runtime/pkg/controller
 sigs.k8s.io/controller-runtime/pkg/controller/controllerutil
 sigs.k8s.io/controller-runtime/pkg/event
@@ -460,26 +463,25 @@ sigs.k8s.io/controller-runtime/pkg/predicate
 sigs.k8s.io/controller-runtime/pkg/reconcile
 sigs.k8s.io/controller-runtime/pkg/runtime/inject
 sigs.k8s.io/controller-runtime/pkg/source
-sigs.k8s.io/controller-runtime/pkg/webhook/admission/builder
-sigs.k8s.io/controller-runtime/pkg/webhook/admission/types
+sigs.k8s.io/controller-runtime/pkg/webhook/admission
 sigs.k8s.io/controller-runtime/pkg/cache
+sigs.k8s.io/controller-runtime/pkg/webhook
 sigs.k8s.io/controller-runtime/pkg/client/apiutil
+sigs.k8s.io/controller-runtime/pkg/internal/log
 sigs.k8s.io/controller-runtime/pkg/internal/recorder
 sigs.k8s.io/controller-runtime/pkg/leaderelection
 sigs.k8s.io/controller-runtime/pkg/metrics
 sigs.k8s.io/controller-runtime/pkg/recorder
+sigs.k8s.io/controller-runtime/pkg/log
+sigs.k8s.io/controller-runtime/pkg/log/zap
+sigs.k8s.io/controller-runtime/pkg/manager/signals
 sigs.k8s.io/controller-runtime/pkg/client/fake
-sigs.k8s.io/controller-runtime/pkg/client/config
-sigs.k8s.io/controller-runtime/pkg/webhook/internal/cert
-sigs.k8s.io/controller-runtime/pkg/webhook/internal/cert/writer
-sigs.k8s.io/controller-runtime/pkg/webhook/types
-sigs.k8s.io/controller-runtime/pkg/patch
-sigs.k8s.io/controller-runtime/pkg/webhook/internal/metrics
 sigs.k8s.io/controller-runtime/pkg/internal/controller
 sigs.k8s.io/controller-runtime/pkg/source/internal
 sigs.k8s.io/controller-runtime/pkg/cache/internal
-sigs.k8s.io/controller-runtime/pkg/webhook/internal/cert/generator
-sigs.k8s.io/controller-runtime/pkg/webhook/internal/cert/writer/atomic
+sigs.k8s.io/controller-runtime/pkg/webhook/internal/certwatcher
+sigs.k8s.io/controller-runtime/pkg/webhook/internal/metrics
+sigs.k8s.io/controller-runtime/pkg/internal/objectutil
 sigs.k8s.io/controller-runtime/pkg/internal/controller/metrics
 # sigs.k8s.io/yaml v1.1.0
 sigs.k8s.io/yaml
